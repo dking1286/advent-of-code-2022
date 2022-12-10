@@ -1,7 +1,7 @@
 (ns dev.dking.advent-of-code-2022.day3
-  (:require [clojure.set :as set]
-            [clojure.string :as string]
-            [clojure.java.io :as io]))
+  (:require [clojure.java.io :as io]
+            [clojure.set :as set]
+            [clojure.string :as string]))
 
 (def priority-order
   "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
